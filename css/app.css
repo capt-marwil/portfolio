@@ -2,3 +2,15 @@ ul, li {
     list-style-type: none;
     display: inline;
 }
+
+@media screen and (min-width: 450px) {
+
+}
+
+@media screen and (min-width: 800px) {
+    
+}
+
+@media screen and (min-width: 1024px){
+    
+}
