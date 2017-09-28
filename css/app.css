@@ -3,14 +3,21 @@ ul, li {
     display: inline;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 449px) {
+    body {
+        background-color: burlywood;
+    }
 
 }
 
-@media screen and (min-width: 800px) {
-    
+@media screen and (min-width: 450px )and (max-width: 749px) {
+    body {
+        background-color: greenyellow;
+    }
 }
 
-@media screen and (min-width: 1024px){
-    
+@media screen and (min-width: 750px){
+    body {
+        background-color: #CDE4FF;
+    }
 }
