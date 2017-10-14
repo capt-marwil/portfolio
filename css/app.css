@@ -14,6 +14,16 @@ ul, li {
     body {
         background-color: burlywood;
     }
+    header {
+        order: 1;
+    }
+    nav {
+        order: 2;
+    }
+
+    section {
+        order: 3;
+    }
 
 }
 
