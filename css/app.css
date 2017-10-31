@@ -1,8 +1,8 @@
 .container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: center;
+    width: 100%;
 }
 
 ul, li {
@@ -10,53 +10,79 @@ ul, li {
     display: inline;
 }
 
-.logo {
-    float: right;
-    overflow: auto;
-}
-
+/* Small Screens */
 @media screen and (max-width: 449px) {
 
-
+    /* Working styles delete before submitting */
     body {
         background-color: burlywood;
     }
     header {
         width: 100%;
         order: 1;
+        /* Working styles delete before submitting */
         border: 1px solid black;
+        margin: 5px;
+        /* End working styles */
     }
-    nav {
+    header > h1 {
+        float: left;
+    }
+    .logo {
+        float: right;
+        flex-shrink: 2;
+    }
+    
+    .clearfix {
+        overflow: auto;
+    }
+    aside {
         width: 100%;
         order: 2;
-    }
-
-    section {
-        width: 100%;
-        order: 3;
-    }
-    footer {
-        width: 100%;
-        order: 4;
     }
     .main_nav {
         min-width: 48px;
         min-height: 48px;
         margin: 20px;
+    
+    section {
+        width: 100%;
+        order: 3;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    article {
+        width: 100%;
+        font-size: 0.9em;
+        /* Working styles delete before submitting */
+        border: 1px solid red;
+        
     }
 
-}
+    footer {
+        width: 100%;
+        order: 4;
+    }
 
+
+}
+/* Medium sized screens */
 @media screen and (min-width: 450px )and (max-width: 769px) {
+    /* Working styles delete before submitting */
     body {
         background-color: greenyellow;
     }
     header {
         width: 100%;
         order: 1;
+        /* Working styles delete before submitting */
         border: 1px solid black;
+        /* End working styles */
     }
-    nav {
+    .logo {
+        float: right;
+    }
+    aside {
         width: 100%;
         order: 2;
     }
@@ -76,6 +102,7 @@ ul, li {
     }
 }
 
+/* Large screens */
 @media screen and (min-width: 770px){
     body {
         background-color: #CDE4FF;
@@ -83,16 +110,22 @@ ul, li {
 
     header {
         width: 100%;
+        /* Working styles delete before submitting */
         border: 1px solid black;
+        /* End working styles */
      
     }
+    .logo {
+        float: right;
+    }
+
     ul, li {
         display: block;
         margin: 10px;
         padding: 10px;
     }
 
-    nav {
+    aside {
         width: 25%;
        
     }
