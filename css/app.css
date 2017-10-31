@@ -5,6 +5,12 @@
     width: 100%;
 }
 
+.project_links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
 ul, li {
     list-style-type: none;
     display: inline;
@@ -44,7 +50,7 @@ ul, li {
         min-width: 48px;
         min-height: 48px;
         margin: 20px;
-    
+    }
     section {
         width: 100%;
         order: 3;
