@@ -32,10 +32,10 @@ ul, li {
         /* End working styles */
     }
     header > h1 {
-        float: left;
+        float: right;
     }
     .logo {
-        float: right;
+        float: left;
         flex-shrink: 2;
     }
     
@@ -115,7 +115,7 @@ ul, li {
     }
 
     header {
-        width: 100%;
+        width: 75%;
         /* Working styles delete before submitting */
         border: 1px solid black;
         /* End working styles */
@@ -133,13 +133,22 @@ ul, li {
 
     aside {
         width: 25%;
+        height: 100%;
+        float: right;
+        /* Working styles delete before submitting */
+        border: 1px solid green;
+        /* End working styles */
        
     }
     section {
         width: 75%;
+        /* Working styles delete before submitting */
+        border: 1px solid red;
+        /* End working styles */
     }
     footer {
         width: 100%;
+        
     }
 
 }
